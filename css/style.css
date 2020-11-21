@@ -1,0 +1,1213 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none!important;
+}
+    /* Main code start here */
+    /****************************** header-section ****************************************/
+.header-section{
+    width: 100%;
+    border-bottom: 1px solid #d3cfcf;
+    padding: 22px 0px;
+    background-color: #fff;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
+	margin-left: 40px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+	color: rgb(18, 40, 161);
+}
+.header-section .dropdown:hover .dropdown-menu{
+    display: block;
+    box-shadow: 5px 10px 8px #888888;
+}
+.header-section input, button, select, optgroup, textarea:focus{
+	background-color: transparent;
+    border-color: transparent;
+    box-shadow: none!important;
+    padding: 10px 0px 10px 12px;
+}
+.header-section .navbar-expand-lg .navbar-nav .dropdown-menu {
+	position: absolute;
+	border: 0px !important;
+}
+.header-section .dropdown-menu {
+	padding: 0;
+	margin: 0;
+}
+.header-section .list-group-item {
+	padding: 0.5rem 1rem;
+	background-color: #fff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.header-section .nav-item .nav-link .fa-search{
+    color: #5f67ff;
+    border: 1px solid #5f67ff;
+    border-radius: 50%;
+    padding: 6px;
+}
+.header-section .nav-item .nav-link .fa-search:hover{
+    color:#fff;
+    background-color: #5f67ff;
+}
+.header-section .btn-secondary {
+	color: #fff;
+	background-color: #5f67ff;
+	border-color: #5f67ff;
+}
+.header-section .btn-secondary:hover{
+    color: #5f67ff;
+	background-color: #fff;
+	border-color: #5f67ff;
+}
+.header-section .btn {
+	font-weight: 700;
+	color: #FFF;
+	padding: 0.75rem 1.8rem;
+	font-size: 1rem;
+    border-radius: 0.25rem;
+}
+ /****************************** banner-section ****************************************/
+.banner-section{
+    width: 100%;
+    padding: 30px 0px;
+}
+.banner-section .banner-partneres{
+    width: 100%;
+    padding: 55px 0px;
+}
+.banner-partneres .btn-secondary {
+	color: #fff;
+	background-color: #5f67ff;
+	border-color: #5f67ff;
+}
+.banner-partneres .btn-secondary:hover{
+    color: #5f67ff;
+	background-color: #fff;
+	border-color: #5f67ff;
+}
+.banner-partneres .btn {
+	font-weight: 700;
+	color: #FFF;
+	padding: 0.75rem 5.8rem;
+	font-size: 45px;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.banner-section .banner-inner{
+    width: 100%;
+}
+.banner-inner .banner-text{
+    width: 100%;
+}
+.banner-inner .banner-text h1{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+    padding-bottom: 36px;
+    color: #5f67ff;
+}
+.banner-inner .banner-text h5{  
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.banner-inner .card {
+	border: none !important;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 5px 20px 18px #8888886e;
+}
+.banner-inner .card:hover {
+    box-shadow: 5px 10px 20px #a7a6a6 inset;
+}
+.banner-inner .card h5{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #414141;
+    padding: 5px 0px;
+}
+.banner-inner .card p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #909090;
+}
+/* ****************************join us section*********************************  */
+.join-us{
+    width: 100%;
+    padding: 20px 0px;
+}
+.join-us .join-us-picture{
+    box-shadow: 5px 10px 18px #8888886e;
+    padding: 25px 0px;
+}
+.join-us .join-us-text{
+    margin: 38px 0px;
+}
+.join-us .join-us-text .card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: none !important;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #8888886e;
+    padding: 20px;
+}
+.join-us .join-us-text .card h1{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: #5f67ff;
+}
+.join-us .join-us-text .card h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 586;
+    padding-bottom: 15px;
+}
+.join-us .join-us-text .card p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #909090
+}
+/* ****************************Our partners section*********************************  */
+.our-partners{
+    width: 100%;
+    padding: 40px 0px;
+}
+.our-partners h1{
+    font-size: 61px;
+    font-weight: 500;
+    line-height: 65px;
+    padding: 40px 0px;
+    color: #5f67ff;
+    text-align: right;
+}
+.our-partners .partners-inner{
+    width: 100%;
+    padding: 10px 0px;
+}
+.partners-inner .line{
+    height: 6px;
+    width: 100%;
+    background-color: #5f67ff;
+}
+.partners-inner .partners-inner-picture{
+    box-shadow: 5px 10px 18px #8888886e;
+    padding: 20px 0px;
+    text-align: center;
+}
+.partners-inner .partners-inner-picture:hover{
+    box-shadow: 5px 10px 10px #a7a6a6 inset;
+}
+.partners-inner h6{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.partners-inner p{
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #888888;
+}
+/* ****************************Become-our-partner section*********************************  */
+.Become-our-partner{
+    width: 100%;
+    padding: 10px 0px;
+}
+.Become-our-partner h1{
+    font-size: 35px;
+    font-weight: 608;
+    line-height: 62px;
+    padding: 40px 0px 100px;
+    color: #000000bd;
+}
+.Become-our-partner span{
+    color: #5f67ff;
+    font-size: 100px;
+    font-weight: 600;
+}
+.Become-our-partner h3{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0px;
+    line-height: 30px;
+}
+.Become-our-partner p{
+    color: #888888;
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 400;
+}
+.Become-our-partner .button-class{
+    text-align: center;
+    padding: 70px 0px;
+}
+.Become-our-partner .btn-secondary {
+	color: #fff;
+	background-color: #5f67ff;
+	border-color: #5f67ff;
+}
+.Become-our-partner .btn-secondary:hover{
+    color: #5f67ff;
+	background-color: #fff;
+	border-color: #5f67ff;
+}
+.Become-our-partner .btn {
+	font-weight: 700;
+	color: #FFF;
+	padding: 0.75rem 1.8rem;
+	font-size: 20px;
+    border-radius: 0.25rem;
+}
+/* ****************************Footer section*********************************  */
+.footer-section{
+    width: 100%;
+    background-color: #333333;
+    color: #fff;
+}
+.footer-section .footer-weget{
+    width: 100%;
+    border-bottom: 1px solid rgba(172, 168, 168, 0.533); 
+    padding: 100px 0px;
+}
+.footer-weget h2{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    padding-bottom: 22px;
+}
+.footer-weget p{
+    font-size: 14px;
+    line-height: 14px;
+}
+.footer-weget p a{
+    color: #fff;
+}
+.footer-weget p a:hover{
+    color: #5f67ff;
+}
+.footer-section .main-footer{
+    width: 100%;
+    padding: 36px 0px 16px;
+    position: relative;
+}
+.footer-section .main-footer .msg-box{
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    top: 500px;
+    bottom: 0px;
+    left: -60px;
+    z-index: 15;
+}
+.footer-section .main-footer .msg-box .fa-comment-alt{
+    background-color: #464cc5;
+    border-radius: 50%;
+    padding: 16px;
+}
+/* *************************
+               responsive code start here  
+******************************/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .header-section{
+        width: 100%;
+        border-bottom: 1px solid #d3cfcf;
+        padding: 16px 0px;
+        background-color: #fff;
+        text-align: right;
+    }
+    .header-section .navbar-light .navbar-nav .nav-link{
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        margin-left: 40px;
+        line-height: 18px;
+        text-align: right;
+    }
+    .header-section .navbar-toggler {
+        padding: 2px 2px !important;
+        font-size: 14px !important;
+    }
+    .header-section input, button, select, optgroup, textarea:focus{
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: none!important;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+    .header-section .nav-item .nav-link .fa-search{
+        color: #67a75b;
+        border: 1px solid #67a75b;
+        border-radius: 50%;
+        padding: 6px;
+    }
+    .header-section .nav-item .nav-link .fa-search:hover{
+        color:#fff;
+        background-color: #67a75b;
+    }
+    .header-section .btn-secondary {
+        color: #fff;
+        background-color: #67a75b;
+        border-color: #67a75b;
+    }
+    .header-section .btn-secondary:hover{
+        color: #67a75b;
+        background-color: #fff;
+        border-color: #67a75b;
+    }
+    .header-section .btn {
+        font-weight: 700;
+        color: #FFF;
+        padding: 0.75rem 0.8rem;
+        font-size: 12px;
+        border-radius: 0.25rem;
+    }
+     /****************************** banner-section ****************************************/
+    .banner-section{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .banner-section .banner-partneres{
+        width: 100%;
+        padding: 55px 0px;
+    }
+    .banner-partneres .btn-secondary {
+        color: #fff;
+        background-color: #67a75b;
+        border-color: #67a75b;
+    }
+    .banner-partneres .btn-secondary:hover{
+        color: #67a75b;
+        background-color: #fff;
+        border-color: #67a75b;
+    }
+    .banner-partneres .btn {
+        font-weight: 700;
+        color: #FFF;
+        padding:0.375rem 1.8rem;
+        font-size: 35px;
+        border-top-right-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+    .banner-inner .banner-text h1{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 45px;
+        padding-bottom: 20px;
+        color: #67a75b;
+        text-align: center;
+    }
+    .banner-inner .banner-text h5{  
+        font-size: 25px;
+        line-height: 35px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .banner-inner .card {
+        border: none !important;
+        border-radius: 5px;
+        text-align: center;
+        padding: 14px;
+        box-shadow: 5px 20px 18px #8888886e;
+        margin-bottom: 15px;
+    }
+    .banner-inner .card h5{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 700;
+        color: #414141;
+        padding: 5px 0px;
+    }
+    .banner-inner .card p{
+        font-size: 14px;
+        line-height: 20px;
+        color: #909090;
+    }
+    /* ****************************join us section*********************************  */
+    .join-us{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .join-us .join-us-picture{
+        box-shadow: 5px 10px 18px #8888886e;
+        padding: 25px 0px;
+    }
+    .join-us .join-us-picture img{
+        width: 200px;
+    }
+    .join-us .join-us-text{
+        margin: 38px 0px;
+    }
+    .join-us .join-us-text .card {
+        border: none !important;
+        border-radius: 5px;
+        box-shadow: 5px 10px 18px #8888886e;
+        padding: 14px;
+        text-align: center;
+    }
+    .join-us .join-us-text .card h1{
+        font-size: 25px;
+        font-weight: 700;
+        padding-bottom: 8px;
+        color: #67a75b;
+    }
+    .join-us .join-us-text .card h5{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 586;
+        padding-bottom: 8px;
+    }
+    .join-us .join-us-text .card p{
+        font-weight: 400;
+        font-size: 12px;
+        color:#888888;
+    }
+    /* ****************************Our partners section*********************************  */
+    .our-partners{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .our-partners h1{
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 40px;
+        padding: 30px 0px;
+        color: #67a75b;
+        text-align: center;
+    }
+    .our-partners .partners-inner{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .partners-inner h6{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 16px;
+        padding-bottom: 3px;
+    }
+    .partners-inner p{
+        font-size: 13px;
+        text-align: center;
+        padding-bottom: 30px;
+        color: #888888;
+    }
+    /* ****************************Become-our-partner section*********************************  */
+    .Become-our-partner{
+        width: 100%;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .Become-our-partner h1{
+        font-size: 25px;
+        font-weight: 608;
+        line-height: 35px;
+        padding: 20px 0px 80px;
+        color: #000000bd;
+        text-align: center;
+    }
+    .Become-our-partner span{
+        color: #67a75b;
+        font-size: 80px;
+        font-weight: 600;
+    }
+    .Become-our-partner h3{
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 0px;
+        line-height: 28px;
+    }
+    .Become-our-partner p{
+        color: #888888;
+        font-size: 13px;
+        line-height: 23px;
+        font-weight: 400;
+    }
+    .Become-our-partner .button-class{
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .Become-our-partner .btn-secondary {
+        color: #fff;
+        background-color: #67a75b;
+        border-color: #67a75b;
+    }
+    .Become-our-partner .btn-secondary:hover{
+        color: #67a75b;
+        background-color: #fff;
+        border-color: #67a75b;
+    }
+    .Become-our-partner .btn {
+        font-weight: 700;
+        color: #FFF;
+        padding: 0.475rem 0.8rem;
+        font-size: 14px;
+        border-radius: 0.25rem;
+    }
+    /* ****************************Footer section*********************************  */
+    .footer-section{
+        width: 100%;
+        background-color: #333333;
+        color: #fff;
+        text-align: center;
+    }
+    .footer-section .footer-weget{
+        width: 100%;
+        border-bottom: 1px solid rgba(172, 168, 168, 0.533); 
+        padding: 50px 0px;
+    }
+    .footer-weget h2{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 700;
+        padding-bottom: 14px;
+    }
+    .footer-weget p{
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .footer-weget p a:hover{
+        color: #67a75b;
+    }
+    .footer-section .main-footer{
+        width: 100%;
+        padding: 36px 0px 16px;
+        position: relative;
+    }
+    .footer-section .main-footer .msg-box{
+        display: none;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header-section{
+        width: 100%;
+        border-bottom: 1px solid #d3cfcf;
+        padding: 16px 0px;
+        background-color: #fff;
+        text-align: right;
+    }
+    .header-section .navbar-light .navbar-nav .nav-link{
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        margin-left: 40px;
+        line-height: 18px;
+        text-align: right;
+    }
+    .header-section .navbar-toggler {
+        padding: 4px 4px !important;
+        font-size: 18px !important;
+    }
+    .header-section input, button, select, optgroup, textarea:focus{
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: none!important;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+    .header-section .nav-item .nav-link .fa-search{
+        color: #04062c;
+        border: 1px solid #04062c;
+        border-radius: 50%;
+        padding: 6px;
+    }
+    .header-section .nav-item .nav-link .fa-search:hover{
+        color:#fff;
+        background-color:#04062c;
+    }
+    .header-section .btn-secondary {
+        color: #fff;
+        background-color: #04062c;
+        border-color: #04062c;
+    }
+    .header-section .btn-secondary:hover{
+        color: #04062c;
+        background-color: #fff;
+        border-color: #04062c;
+    }
+    .header-section .btn {
+        font-weight: 700;
+        color: #FFF;
+        padding: 0.75rem 0.8rem;
+        font-size: 14px;
+        border-radius: 0.25rem;
+    }
+     /****************************** banner-section ****************************************/
+    .banner-section{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .banner-section .banner-partneres{
+        width: 100%;
+        padding: 55px 0px;
+    }
+    .banner-partneres .btn-secondary {
+        color: #fff;
+        background-color: #04062c;
+        border-color: #04062c;
+    }
+    .banner-partneres .btn-secondary:hover{
+        color: #04062c;
+        background-color: #fff;
+        border-color: #04062c;
+    }
+    .banner-partneres .btn {
+        font-weight: 700;
+        color: #FFF;
+        padding:0.375rem 1.8rem;
+        font-size: 40px;
+        border-top-right-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+    .banner-inner .banner-text h1{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 45px;
+        padding-bottom: 20px;
+        color: #04062c;
+        text-align: center;
+    }
+    .banner-inner .banner-text h5{  
+        font-size: 25px;
+        line-height: 35px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .banner-inner .card {
+        border: none !important;
+        border-radius: 5px;
+        text-align: center;
+        padding: 50px;
+        box-shadow: 5px 20px 18px #8888886e;
+        margin-bottom: 15px;
+    }
+    .banner-inner .card h5{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 700;
+        color: #414141;
+        padding: 5px 0px;
+    }
+    .banner-inner .card p{
+        font-size: 14px;
+        line-height: 20px;
+        color: #909090;
+    }
+    /* ****************************join us section*********************************  */
+    .join-us{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .join-us .join-us-picture{
+        box-shadow: 5px 10px 18px #8888886e;
+        padding: 25px 0px;
+        text-align: center;
+    }
+    .join-us .join-us-picture img{
+        width: 300px;
+    }
+    .join-us .join-us-text{
+        margin: 38px 0px;
+    }
+    .join-us .join-us-text .card {
+        border: none !important;
+        border-radius: 5px;
+        box-shadow: 5px 10px 18px #8888886e;
+        padding: 40px;
+        text-align: center;
+    }
+    .join-us .join-us-text .card h1{
+        font-size: 25px;
+        font-weight: 700;
+        padding-bottom: 8px;
+        color: #04062c;
+    }
+    .join-us .join-us-text .card h5{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 586;
+        padding-bottom: 8px;
+    }
+    .join-us .join-us-text .card p{
+        font-weight: 400;
+        font-size: 12px;
+        color:#888888;
+    }
+    /* ****************************Our partners section*********************************  */
+    .our-partners{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .our-partners h1{
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 40px;
+        padding: 30px 0px;
+        color: #04062c;
+        text-align: center;
+    }
+    .our-partners .partners-inner{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .partners-inner h6{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 20px;
+        padding-bottom: 3px;
+    }
+    .partners-inner p{
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 30px;
+        color: #888888;
+    }
+    /* ****************************Become-our-partner section*********************************  */
+    .Become-our-partner{
+        width: 100%;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .Become-our-partner h1{
+        font-size: 25px;
+        font-weight: 608;
+        line-height: 35px;
+        padding: 20px 0px 80px;
+        color: #000000bd;
+        text-align: center;
+    }
+    .Become-our-partner span{
+        color: #04062c;
+        font-size: 90px;
+        font-weight: 600;
+    }
+    .Become-our-partner h3{
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 0px;
+        line-height: 28px;
+    }
+    .Become-our-partner p{
+        color: #888888;
+        font-size: 13px;
+        line-height: 23px;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+    .Become-our-partner .button-class{
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .Become-our-partner .btn-secondary {
+        color: #fff;
+        background-color: #04062c;
+        border-color: #04062c;
+    }
+    .Become-our-partner .btn-secondary:hover{
+        color: #04062c;
+        background-color: #fff;
+        border-color: #04062c;
+    }
+    .Become-our-partner .btn {
+        font-weight: 700;
+        color: #FFF;
+        padding: 0.475rem 0.8rem;
+        font-size: 18px;
+        border-radius: 0.25rem;
+    }
+    /* ****************************Footer section*********************************  */
+    .footer-section{
+        width: 100%;
+        background-color: #333333;
+        color: #fff;
+        text-align: center;
+    }
+    .footer-section .footer-weget{
+        width: 100%;
+        border-bottom: 1px solid rgba(172, 168, 168, 0.533); 
+        padding: 50px 0px;
+    }
+    .footer-weget h2{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 700;
+        padding-bottom: 14px;
+    }
+    .footer-weget p{
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .footer-weget p a:hover{
+        color: #04062c;
+    }
+    .footer-section .main-footer{
+        width: 100%;
+        padding: 36px 0px 16px;
+        position: relative;
+    }
+    .footer-section .main-footer .msg-box{
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header-section{
+        width: 100%;
+        border-bottom: 1px solid #d3cfcf;
+        padding: 22px 0px;
+        background-color: #fff;
+    }
+    .header-section .navbar-light .navbar-nav .nav-link {
+        color: #000;
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 40px;
+    }
+    .header-section .navbar-light .navbar-nav .nav-link:hover {
+        color: rgb(18, 40, 161);
+    }
+    .header-section .dropdown:hover .dropdown-menu{
+        display: block;
+        box-shadow: 5px 10px 8px #888888;
+    }
+    .header-section input, button, select, optgroup, textarea:focus{
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: none!important;
+        padding: 10px 0px 10px 12px;
+    }
+    .header-section .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+        border: 0px !important;
+    }
+    .header-section .dropdown-menu {
+        padding: 0;
+        margin: 0;
+    }
+    .header-section .list-group-item {
+        padding: 0.5rem 1rem;
+        background-color: #fff;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    }
+    .header-section .nav-item .nav-link .fa-search{
+        color: #5f67ff;
+        border: 1px solid #5f67ff;
+        border-radius: 50%;
+        padding: 6px;
+    }
+    .header-section .nav-item .nav-link .fa-search:hover{
+        color:#fff;
+        background-color: #5f67ff;
+    }
+    .header-section .btn-secondary {
+        color: #fff;
+        background-color: #5f67ff;
+        border-color: #5f67ff;
+    }
+    .header-section .btn-secondary:hover{
+        color: #5f67ff;
+        background-color: #fff;
+        border-color: #5f67ff;
+    }
+    .header-section .btn {
+        font-weight: 700;
+        color: #FFF;
+        padding: 0.75rem 1.8rem;
+        font-size: 1rem;
+        border-radius: 0.25rem;
+    }
+     /****************************** banner-section ****************************************/
+    .banner-section{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .banner-section .banner-partneres{
+        width: 100%;
+        padding: 55px 0px;
+    }
+    .banner-partneres .btn-secondary {
+        color: #fff;
+        background-color: #5f67ff;
+        border-color: #5f67ff;
+    }
+    .banner-partneres .btn-secondary:hover{
+        color: #5f67ff;
+        background-color: #fff;
+        border-color: #5f67ff;
+    }
+    .banner-partneres .btn {
+        font-weight: 700;
+        color: #FFF;
+        padding: 0.75rem 5.8rem;
+        font-size: 45px;
+        border-top-right-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+    .banner-section .banner-inner{
+        width: 100%;
+    }
+    .banner-inner .banner-text{
+        width: 100%;
+    }
+    .banner-inner .banner-text h1{
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 65px;
+        padding-bottom: 36px;
+        color: #5f67ff;
+    }
+    .banner-inner .banner-text h5{  
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    .banner-inner .card {
+        border: none !important;
+        border-radius: 5px;
+        text-align: center;
+        padding: 16px;
+        box-shadow: 5px 20px 18px #8888886e;
+    }
+    .banner-inner .card:hover {
+        box-shadow: 5px 10px 20px #a7a6a6 inset;
+    }
+    .banner-inner .card h5{
+        font-size: 19px;
+        line-height: 28px;
+        font-weight: 700;
+        color: #414141;
+        padding: 5px 0px;
+    }
+    .banner-inner .card p{
+        font-size: 10px;
+        line-height: 20px;
+        color: #909090;
+    }
+    /* ****************************join us section*********************************  */
+    .join-us{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .join-us .join-us-picture{
+        box-shadow: 5px 10px 18px #8888886e;
+        padding: 25px 0px;
+    }
+    .join-us .join-us-picture img{
+        width: 316px;
+    }
+    .join-us .join-us-text{
+        margin: 0px 0px;
+    }
+    .join-us .join-us-text .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: none !important;
+        border-radius: 5px;
+        box-shadow: 5px 10px 18px #8888886e;
+        padding: 8px;
+    }
+    .join-us .join-us-text .card h1{
+        font-size: 26px;
+        font-weight: 700;
+        padding-bottom: 6px;
+        color: #5f67ff;
+    }
+    .join-us .join-us-text .card h5{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 586;
+        padding-bottom: 6px;
+    }
+    .join-us .join-us-text .card p{
+        font-weight: 400;
+        font-size: 10px;
+        color: #909090
+    }
+    /* ****************************Our partners section*********************************  */
+    .our-partners{
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .our-partners h1{
+        font-size: 61px;
+        font-weight: 500;
+        line-height: 65px;
+        padding: 40px 0px;
+        color: #5f67ff;
+        text-align: right;
+    }
+    .our-partners .partners-inner{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .partners-inner .line{
+        height: 6px;
+        width: 100%;
+        background-color: #5f67ff;
+    }
+    .partners-inner .partners-inner-picture{
+        box-shadow: 5px 10px 18px #8888886e;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    .partners-inner .partners-inner-picture:hover{
+        box-shadow: 5px 10px 10px #a7a6a6 inset;
+    }
+    .partners-inner h6{
+        text-align: center;
+        padding-top: 40px;
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .partners-inner p{
+        font-size: 13px;
+        text-align: center;
+        padding-bottom: 30px;
+        color: #888888;
+    }
+    /* ****************************Become-our-partner section*********************************  */
+    .Become-our-partner{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .Become-our-partner h1{
+        font-size: 35px;
+        font-weight: 608;
+        line-height: 62px;
+        padding: 40px 0px 100px;
+        color: #000000bd;
+    }
+    .Become-our-partner span{
+        color: #5f67ff;
+        font-size: 100px;
+        font-weight: 600;
+    }
+    .Become-our-partner h3{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 15px 0px;
+        line-height: 24px;
+    }
+    .Become-our-partner p{
+        color: #888888;
+        font-size: 11px;
+        line-height: 21px;
+        font-weight: 400;
+    }
+    .Become-our-partner .button-class{
+        text-align: center;
+        padding: 70px 0px;
+    }
+    .Become-our-partner .btn-secondary {
+        color: #fff;
+        background-color: #5f67ff;
+        border-color: #5f67ff;
+    }
+    .Become-our-partner .btn-secondary:hover{
+        color: #5f67ff;
+        background-color: #fff;
+        border-color: #5f67ff;
+    }
+    .Become-our-partner .btn {
+        font-weight: 700;
+        color: #FFF;
+        padding: 0.75rem 1.8rem;
+        font-size: 20px;
+        border-radius: 0.25rem;
+    }
+    /* ****************************Footer section*********************************  */
+    .footer-section{
+        width: 100%;
+        background-color: #333333;
+        color: #fff;
+    }
+    .footer-section .footer-weget{
+        width: 100%;
+        border-bottom: 1px solid rgba(172, 168, 168, 0.533); 
+        padding: 100px 0px;
+    }
+    .footer-weget h2{
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+        padding-bottom: 22px;
+    }
+    .footer-weget p{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .footer-weget p a{
+        color: #fff;
+    }
+    .footer-weget p a:hover{
+        color: #5f67ff;
+    }
+    .footer-section .main-footer{
+        width: 100%;
+        padding: 36px 0px 16px;
+        position: relative;
+        text-align: center;
+    }
+    .footer-section .main-footer .msg-box{
+        width: 100%;
+        text-align: right;
+        position: absolute;
+        top: 861px;
+        bottom: 0px;
+        left: -60px;
+        z-index: 15;
+    }
+    .footer-section .main-footer .msg-box .fa-comment-alt{
+        background-color: #464cc5;
+        border-radius: 50%;
+        padding: 16px;
+    }
+}
